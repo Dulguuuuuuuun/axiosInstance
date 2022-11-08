@@ -1,8 +1,7 @@
 import { createContext, useState } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import { createContext, useState } from "react";
-
+import { Blogger } from "./components/Blogger";
 import Header from "./components/Header";
 import Contact from "./pages/Contact";
 import Products from "./pages/Products";
@@ -12,15 +11,16 @@ import Login from "./pages/LogIn";
 import Services from "./pages/Service";
 import Comments from "./components/Comments";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/Footer";
 
-export const colorModeContext = createContext();
+
 
 function App() {
-  const [checked, setChecked] = useState();
+
 
   return (
     <div className="app">
-      <colorModeContext.Provider value={{ checked, setChecked }}>
+
         <BrowserRouter>
           <Header />
           <Routes>
@@ -32,7 +32,7 @@ function App() {
             <Route path="/getAccess" element={<GetAccess />} />
           </Routes>
         </BrowserRouter>
-      </colorModeContext.Provider>
+      <Footer></Footer>
     </div>
   );
 }

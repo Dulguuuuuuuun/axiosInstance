@@ -17,10 +17,8 @@
   padding: 10px 0;
   display: flex;
   justify-content: space-between;
-  background-color: black;
 }
-.homeContainer {
-}
+
 header {
   width: 100vw;
   height: 100px;
@@ -190,4 +188,90 @@ header img {
   display: flex;
   align-items: center;
   gap: 12px;
+}
+.productsContainer {
+  width: 100vw;
+  height: 2000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10% 0 10% 0;
+  gap: 2%;
+}
+.productTexts {
+  width: 700px;
+  font-size: 18px;
+}
+.userInfo {
+}
+
+.blogContainer img {
+  width: 100%;
+}
+.blogContainer h2 {
+  width: 90%;
+}
+.blogContainer span {
+  width: 90%;
+}
+.blogProfileContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+.blogProfileContainer img {
+  width: 54px;
+  height: 54px;
+}
+.blogsContainer {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+.blogMain {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  padding-top: 60px;
+}
+.goodAfter {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.goodAfter p {
+  font-size: 48px;
+  font-weight: 600;
+}
+.goodAfter span {
+  color: #6d7d8b;
+}
+.btnSrvc {
+  width: 150px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  color: #6d7d8b;
+}
+
+.footer {
+  width: 100vw;
+  height: 340px;
+  background-color: #252b3b;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.useCasesFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
